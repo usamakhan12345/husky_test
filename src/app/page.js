@@ -2,7 +2,10 @@ import React from 'react'
 
 const page = () => {
   console.log("hello world")
-  constt a =3 ;
+  const a  =3 ;
+  constt b = 3
+  console.log("hello")
+
   return (
     <>
     <h1>Hello world</h1>
