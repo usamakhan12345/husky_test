@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "prettier-format": "prettier --config .prettierrc '**/*.{json,js,jsx,ts,tsx,css,scss,md}' --write",
+    "test": "test --watchAll"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.0.1",
