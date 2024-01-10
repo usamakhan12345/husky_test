@@ -22,8 +22,9 @@
     "react-redux": "^9.0.4"
   },
   "devDependencies": {
-    "eslint": "^8",
+    "eslint": "^8.56.0",
     "eslint-config-next": "14.0.4",
+    "eslint-plugin-react": "^7.33.2",
     "husky": "^8.0.0"
   },
   "lint-staged": {
